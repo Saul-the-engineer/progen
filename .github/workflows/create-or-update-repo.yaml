@@ -29,8 +29,8 @@ jobs:
           fetch-depth: 0
       - name: Configure git user
         run: |
-          git config --global user.email "test@test.com"
-          git config --global user.name "Eric Riddoch"
+          git config --global user.email "git-bot-user@python-course.com"
+          git config --global user.name "Saul Ramirez"
       - run: |
           bash -x run.sh create-repo-if-not-exists
         env:
@@ -48,8 +48,8 @@ jobs:
           fetch-depth: 0
       - name: Configure git user
         run: |
-          git config --global user.email "test@test.com"
-          git config --global user.name "Eric Riddoch"
+          git config --global user.email "git-bot-user@python-course.com"
+          git config --global user.name "Saul Ramirez"
       - run: |
           bash -x run.sh configure-repo
         env:
@@ -67,11 +67,11 @@ jobs:
           fetch-depth: 0
       - name: Configure git user
         run: |
-          git config --global user.email "test@test.com"
-          git config --global user.name "Eric Riddoch"
+          git config --global user.email "git-bot-user@python-course.com"
+          git config --global user.name "Saul Ramirez"
       - run: |
           bash -x run.sh open-pr-with-generated-project
         env:
           REPO_NAME: ${{ github.event.inputs.repo_name }}
           PACKAGE_IMPORT_NAME: ${{ github.event.inputs.package_import_name }}
-          GITHUB_USERNAME: phitoduck
+          GITHUB_USERNAME: Saul-the-engineer
