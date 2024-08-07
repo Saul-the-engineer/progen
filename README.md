@@ -49,7 +49,7 @@ pip install cookiecutter
 # cookie cut the template, answering the prompts, e.g.
 #  - repo_name: my-awesome-package
 #  - package_import_name: my_awesome_package
-cookiecutter https://github.com/phitoduck/python-course-cookiecutter-v2
+cookiecutter https://github.com/Saul-the-engineer/repogen
 ```
 
 
@@ -57,18 +57,18 @@ cookiecutter https://github.com/phitoduck/python-course-cookiecutter-v2
 
 1. **Fork the repository to your GitHub account.**
 2. **Setup a Personal Access Token:** Create a `PERSONAL_GITHUB_TOKEN` Token with [following Permissions](./assets/gh-token-permission-defined.png) and add it as a secret to the repository.
-    | Permission                | Access          |
-    |:-------------------------:|:---------------:|
-    | Administration            | Read and write  |
-    | Actions                   | Read and write  |
-    | Contents                  | Read and write  |
-    | Environments              | Read and write  |
-    | Metadata                  | Read-only       |
-    | Pull requests             | Read and write  |
-    | Secret scanning alerts    | Read and write  |
-    | Secrets                   | Read and write  |
-    | Variables                 | Read and write  |
-    | Workflows                 | Read and write  |
+    |       Permission       |     Access     |
+    | :--------------------: | :------------: |
+    |     Administration     | Read and write |
+    |        Actions         | Read and write |
+    |        Contents        | Read and write |
+    |      Environments      | Read and write |
+    |        Metadata        |   Read-only    |
+    |     Pull requests      | Read and write |
+    | Secret scanning alerts | Read and write |
+    |        Secrets         | Read and write |
+    |       Variables        | Read and write |
+    |       Workflows        | Read and write |
 
 3. **Optional:** If you intent to publish the package to PyPI, create a PyPI token and add it as a secret to the repository. The secret should be named as `TEST_PYPI_TOKEN` and `PROD_PYPI_TOKEN` for production and test PyPI tokens respectively.
 4. **Run the Workflow**: Trigger the GitHub Actions workflow(`Create or Update Repo`) via the GitHub UI.
@@ -154,8 +154,4 @@ graph TD;
     ├── all the boilerplate code is here
 ```
 
-* **
-
-### Contributed By:
-
-✍🏼[**Amit Vikram Raj**](https://www.linkedin.com/in/avr27/)
+***
