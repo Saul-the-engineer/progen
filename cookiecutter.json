@@ -1,6 +1,4 @@
 {
     "repo_name": "repo-name",
-    "package_import_name": "example_package",
-    "user_name": "user-name",
-    "user_email": "user-email"
+    "package_import_name": "example_package"
 }
